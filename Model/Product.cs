@@ -9,7 +9,7 @@
         public string CategoryName { get; set; }
         public string CategoryDescription { get; set; }
         public string CategoryCategory { get; set; }
-        public string CategoryCategoryName { get; set;}      
+        public string CategoryCategoryName { get; set;}            
     }
 
 

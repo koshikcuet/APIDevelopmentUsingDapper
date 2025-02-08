@@ -6,7 +6,7 @@ namespace APIDevelopmentUsingDapper.DapperDbConnections
 {
     public class DapperDbConnection: IDapperDbConnection
     {
-        public readonly string _connectionString;
+        public readonly string _connectionString;   
 
         public DapperDbConnection(IConfiguration configuration)
         {
