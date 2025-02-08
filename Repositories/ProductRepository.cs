@@ -16,7 +16,7 @@ namespace APIDevelopmentUsingDapper.Repositories
         {
             using(IDbConnection db = _dapperDbConnection.CreateConnection())
             {
-                return await db.QueryAsync<Product>("SELECT * FROM Products");
+                return await db.QueryAsync<Product>("SELECT * FROM [cardicondb].[cardicondb_usr].[abstracts]");
             }
         }
 
